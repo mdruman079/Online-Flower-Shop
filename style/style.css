@@ -58,8 +58,8 @@
 .banner-title-2 {
     color: #272727;
     font-family: Lato;
-    font-size: 38px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -98,6 +98,8 @@
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 .social-des {
@@ -107,6 +109,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding-bottom: 40px;
 }
 
 
@@ -120,20 +123,80 @@
 }
 
 .image {
+    margin-right: 10px;
     width: 250px;
     height: 320px;
 }
-.form{
-text-align: center;
+
+.form {
+    text-align: center;
     width: 72%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     background-image: url("../images/recnine.png");
-background-size: cover;
-height: 200px;
-/* align-items: center; */
+    background-size: cover;
+    height: 300px;
+
 }
-.footer{
+.formfl{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer {
     text-align: center;
+    background-color: #140e0e;
+    max-height:100% ;
+
+}
+
+.footer-title {
+    color: #fdfdfd;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 20px;
+
+}
+
+.flower {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.reserved{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 120px;
+}
+.form-title{
+    padding-top: 120px;
+    padding-bottom: 15px;
+}
+.finput{
+    width: 300px;
+height: 40px;
+padding-right: 5px;
+}
+.fdes{
+    padding-bottom: 40px;
+}
+.footer-content{
+    padding-top: 120px;
 }
